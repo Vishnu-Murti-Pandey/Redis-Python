@@ -1,0 +1,21 @@
+# =========================
+# Backend
+# =========================
+
+venv/
+.env
+.env.prod
+
+__pycache__/
+*.py[cod]
+
+*.db
+.pytest_cache/
+.mypy_cache/
+
+
+# =========================
+# Docker
+# =========================
+
+postgres_data/
